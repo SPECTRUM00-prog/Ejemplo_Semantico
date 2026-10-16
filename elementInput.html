@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos de Entrada</title>
+  </head>
+  <body>
+    <div>
+      <!-- Input de texto simple -->
+      <label for="nombre">Nombre Completo </label>
+      <input type="text" id="nombre" name="nom" />
+      <br /><br />
+      <!-- Input de numero -->
+      <label for="numero">Numero</label>
+      <input
+        type="number"
+        id="numero"
+        name="nume"
+        min="0"
+        max="100"
+        value="50"
+        step="1"
+      />
+      <br /><br />
+      <!-- Input de rango -->
+      <label for="input-rango">Rango</label>
+      <input
+        type="range"
+        id="input-rango"
+        min="0"
+        max="100"
+        value="50"
+        step="1"
+      />
+      <br /><br />
+      <!-- Input de correo -->
+      <label for="Correo">Correo Electronico</label>
+      <input type="email" id="Correo" name="Correo" />
+      <br /><br />
+      <!-- Input de contrase;a -->
+      <label for="Contraseña">Contraseña</label>
+      <input type="password" id="Contraseña" name="Contraseña" />
+      <br /><br />
+      <!-- Input de fecha -->
+      <label for="Fecha">Selecciona la Fecha</label>
+      <input type="date" id="Fecha" name="Fecha" />
+      <br /><br />
+      <!-- Input de checkbox -->
+      <label for="checkbox">Acepto</label>
+      <input type="checkbox" id="checkbox" name="checkbox" value="Aceptado" />
+      <br /><br />
+      <!-- Input de tipo archivo -->
+      <label for="Archivo">Selecciona tu archivo</label>
+      <input type="file" id="Archivo" name="Mi Archivo" />
+      <br /><br />
+      <!-- Input de tipo color -->
+      <label for="Color">Selecciona un Color</label>
+      <input type="color" id="Color" name="Mi Color" value="#ff0000" />
+      <br /><br />
+      <!-- Input de tipo HIDDEN -->
+      <input type="hidden" id="usuario_id" name="usuario_id" value="123" />
+    </div>
+  </body>
+</html>
